@@ -9,6 +9,32 @@ body {
   /* overflow: hidden; */
   /* background: url(../../assets/Bee_IA.jpg) fixed center/cover; */
   background: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.title_app {
+  text-align: center;
+}
+
+.title_app h1 {
+  background: rgba(255, 192, 203, 0.51);
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  border: solid salmon 2px;
+  border-radius: 5px;
+}
+
+.title_app p {
+  background: rgba(72, 139, 161, 0.427);
+  width: 90%;
+  margin: 10px auto;
+  align-items: center;
+  text-align: center;
+  border: solid salmon 2px;
+  border-radius: 5px;
 }
 
 .ifc-property-menu {
@@ -38,6 +64,7 @@ body {
   outline: none;
   width: 100%;
   height: 100%;
+  padding: 5px;
 }
 
 .component {
@@ -55,8 +82,15 @@ body {
 .viewer {
   border: 2px solid red;
   border-radius: 8px;
-  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
   padding: 5px;
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  overflow: hidden;
 }
 
 .data_content {
@@ -119,6 +153,7 @@ h3 {
 }
 
 .checkboxes {
+  float: left;
   /* position: absolute;
   left: 1rem;
   top: 1rem; */
@@ -133,7 +168,7 @@ h3 {
   background: var(--translucent-white);
   box-shadow: var(--normal-shadow);
   backdrop-filter: var(--blur-filter);
-  top: 10%;
+  top: 20%;
 }
 
 span {
@@ -141,4 +176,5 @@ span {
   text-decoration: underline;
   font-style: italic;
   font-size: small;
+  z-index: 3;
 }
