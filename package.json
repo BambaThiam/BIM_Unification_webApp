@@ -1,0 +1,24 @@
+{
+  "name": "project_ifc_js_bamba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "Bamba THIAM",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.78.1"
+  },
+  "dependencies": {
+    "dxf-writer": "^1.18.2",
+    "three": "^0.135.0",
+    "web-ifc-three": "^0.0.119",
+    "web-ifc-viewer": "^1.0.209"
+  }
+}

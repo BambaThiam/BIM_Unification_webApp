@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bim Unification WebApp</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="main-polygon">
+        <div class="polygon-container">
+          <div class="polygon">
+            <img src="./assets/eye-IA.jpg" alt="logo" />
+          </div>
+        </div>
+        <h2>BIM UNIFICATION WEBAPP</h2>
+      </div>
+      <ul>
+        <li><a href="#acceuil">Accueil</a></li>
+        <li><a href="#galerie">Galerie d'applications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li id="language">FR | EN</li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="title" id="acceuil">
+        <h1>MS-BIM 2021-2022 : Projet de thèse Bamba</h1>
+      </div>
+      <div class="body-text">
+        <div class="body-text-main">
+          <h2>De quoi s'agit-il?</h2>
+          <p>
+            Face à des projets de plus en plus complexes, les chantiers de nos
+            jours deviennent de plus en plus exigeants et la gestion des risques
+            s'avère plus que nécessaire face aux enjeux financiers,
+            contractuels, environnementaux, sécurité...De là, la necessité de
+            maitriser et de capitaliser sur les données au plus proche de la
+            source devient stratégiquement capitale pour une bonne prise de
+            décision en se basant sur des données fiables.
+          </p>
+          <br />
+          <p>
+            L'identification, la saisie de données sur site (chantier) est un
+            processus de recherche et d'analyse visuelle qui peut être entravé
+            par divers facteurs humains tels que l'état d'esprit physiologique
+            et psychologique des travailleurs, la capacité d'attention, les
+            préjugés et les niveaux de tolérances au risque (pour la gestion de
+            la sécurité par exemple).
+          </p>
+          <br />
+          <p>
+            Ceci est la plateforme de l'application mise en place dans le cadre
+            de ma thèse MSBIM à l'Ecole des Ponts et Chaussées et l'ESTP.
+          </p>
+          <br />
+          <p>
+            Nous faisons converger un modèle BIM classique (maquette 3D + autres
+            data) avec un modèle de vision par ordinateur (qui récupère
+            directement des informations à la source à travers une caméra). Les
+            données issues de ces 2 univers (monde virtuel et monde réel)
+            convergent vers une base de données qui constitue notre conteneur
+            d'information. Nous utilions les méthodes du Web sémantique pour
+            transformer ce conteneur d'information en base de données
+            ontologique. Ceci nous permet d'avoir un modèle de connaissances du
+            chantier sur une thématique bien précise et accessible à tout le
+            monde.
+          </p>
+        </div>
+      </div>
+    </header>
+    <div id="galerie" class="title">
+      <h1>Galerie d'application</h1>
+    </div>
+    <!-- start Section from ifc.js crash Course -->
+    <section id="projects-container" class="project-list">
+      <div class="card">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M18 10.031v-6.423l-6.036-3.608-5.964 3.569v6.499l-6 3.224v7.216l6.136 3.492 5.864-3.393 5.864 3.393 6.136-3.492v-7.177l-6-3.3zm-1.143.036l-4.321 2.384v-4.956l4.321-2.539v5.111zm-4.895-8.71l4.272 2.596-4.268 2.509-4.176-2.554 4.172-2.551zm-10.172 12.274l4.778-2.53 4.237 2.417-4.668 2.667-4.347-2.554zm4.917 3.587l4.722-2.697v5.056l-4.722 2.757v-5.116zm6.512-3.746l4.247-2.39 4.769 2.594-4.367 2.509-4.649-2.713zm9.638 6.323l-4.421 2.539v-5.116l4.421-2.538v5.115z"
+          />
+        </svg>
+        <h2>Sample project</h2>
+        <a class="button" href="./model-viewer.html" target="_blank">Model</a>
+      </div>
+    </section>
+
+    <div id="contact" class="title">
+      <h1>Contacts</h1>
+    </div>
+    <section class="contact">
+      <h2 class="intro">
+        Stay tuned for something amazing!. <br />
+        <br />
+        Make BIM great again.
+      </h2>
+      <div id="subscribe">
+        <!-- <form action="" method="post" onsubmit="">
+          <p>
+            <input
+              name=""
+              value="Enter your e-mail (coming soon)"
+              type="text"
+              id=""
+            />
+            <input type="button" value="Submit" />
+          </p>
+        </form> -->
+        <div id="socialIcons">
+          <ul>
+            <li><a href="" title="Twitter" class="twitterIcon"></a></li>
+            <li><a href="" title="facebook" class="facebookIcon"></a></li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/bamba-thiam-7740308a/"
+                target="_blank"
+                title="linkedIn"
+                class="linkedInIcon"
+              ></a>
+            </li>
+            <li><a href="" title="Pintrest" class="pintrestIcon"></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="top-space">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; Bamba THIAM <span id="getCurrentDate"></span></p>
+        </div>
+      </div>
+    </footer>
+    <div class="vaisseau">
+      <img src="./assets/spaceship.png" alt="spaceship" />
+    </div>
+  </body>
+
+  <script type="module" src="./app.js"></script>
+  <script type="text/javascript">
+    let dt = new Date();
+    document.getElementById("getCurrentDate").innerHTML = dt.getFullYear();
+  </script>
+</html>
