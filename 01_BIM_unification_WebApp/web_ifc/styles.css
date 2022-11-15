@@ -178,3 +178,138 @@ span {
   font-size: small;
   z-index: 3;
 }
+
+/****************************** Style responsive ********************************/
+
+/* ************** RESPONSIVE *************** */
+
+/* Tablette 1 */
+@media (max-width: 1280px) {
+  nav {
+    /* font-size: 0.8rem;
+  } */
+
+}
+
+/* Tablette 2 */
+@media (max-width: 1100px) {
+  /* * {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  } */
+
+}
+
+/* Tablette */
+@media (max-width: 800px) {
+  * {
+    /* display: flex; */
+  }
+}
+
+/* Mobile 1*/
+@media (max-width: 570px) {
+  * {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .component {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    height: 1300px;
+  }
+
+  .viewer {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+
+  .checkboxes {
+    display: flex;
+    flex-direction: column;
+    display: block;
+    /* width: auto; */
+    margin-top: 155%;
+    float: left;
+    /* position: absolute; */
+  }
+
+  .virt_env {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .data_content {
+    width: 80%;
+    margin: 15px auto;
+  }
+  .data_search {
+    width: 80%;
+    margin: 15px auto;
+  }
+
+/* Mobile 2*/
+@media (max-width: 400px) {
+  * {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .component {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    height: 1300px;
+  }
+
+  .viewer {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  .checkboxes {
+    display: flex;
+    flex-direction: column;
+    display: block;
+    /* width: auto; */
+    margin-top: 210%;
+    float: left;
+    /* position: absolute; */
+  }
+
+  .virt_env {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .data_content {
+    width: 80%;
+    margin: 15px auto;
+  }
+  .data_search {
+    width: 80%;
+    margin: 15px auto;
+  }
+
+
+}
