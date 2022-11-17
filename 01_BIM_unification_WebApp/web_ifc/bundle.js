@@ -122182,3 +122182,6 @@ fenetre.addEventListener("click", () => {
     message.style.display = "none";
   }
 });
+
+// const filtr = document.querySelector(".but");
+// console.log(filtr);
