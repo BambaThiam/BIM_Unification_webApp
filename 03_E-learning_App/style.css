@@ -17,9 +17,26 @@ body {
   overflow-x: hidden;
 }
 
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 5px auto;
+}
+
 h2 {
   color: rgb(32, 31, 31);
-  background: rgba(118, 53, 64, 0.403);
+  background: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
   align-items: center;
   justify-content: center;
   padding: 1rem;
@@ -28,12 +45,13 @@ h2 {
 
 p {
   color: rgb(32, 31, 31);
-  background: rgba(53, 117, 118, 0.403);
+  background: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
   align-items: center;
   justify-content: center;
   padding: 1rem;
   text-align: center;
-  width: auto;
+  margin: 5px;
+  width: 50%;
 }
 
 .slider-container {
