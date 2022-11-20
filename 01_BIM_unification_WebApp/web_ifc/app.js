@@ -192,6 +192,16 @@ searchinput.addEventListener("keyup", () => {
         `;
   });
 
+//************ Début test Filtre suivant réponse pour selectionner mur ***********/
+// const resp = document.getElementById("responses");
+// console.log(resp.value);
+
+// if (condition == "Nous devons poser le prémur n°2") {
+
+// }
+
+//************ Fin Filtre suivant réponse pour selectionner mur ***********/
+
 // container.remove();
 // let index = data_base.findIndex(
 //   (element) => element.question === searchinput.value

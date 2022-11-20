@@ -1,20 +1,22 @@
 export const projects = [
   {
-    name: "BIM Unification webApp",
+    name: "Hypervision chantier temps réel",
     id: "1",
-    url: "./01_BIM_unification_WebApp/web_ifc/index.html",
+    url: "./02_Hypervision_WebApp_Videos/index.html",
   },
 
   {
-    name: "Hypervision chantier WebApp temps réel",
-    id: "2",
-    url: "./02_Hypervision_WebApp_Videos/index.html",
-  },
-  {
     name: "E-learning formation au poste prémur",
-    id: "3",
+    id: "2",
     url: "./03_E-learning_App/index.html",
   },
+
+  {
+    name: "BIM Unification webApp",
+    id: "3",
+    url: "./01_BIM_unification_WebApp/web_ifc/index.html",
+  },
+
   {
     name: "Réalité virtuelle formation au poste prémur",
     id: "4",

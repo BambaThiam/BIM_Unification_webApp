@@ -122185,3 +122185,7 @@ fenetre.addEventListener("click", () => {
 
 // const filtr = document.querySelector(".but");
 // console.log(filtr);
+
+//************ Filtre suivant réponse ***********/
+
+window.onmousemove = () => viewer.IFC.selector.prePickIfcItem();
